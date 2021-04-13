@@ -1,10 +1,18 @@
 import React from 'react'
-
-function Footer() {
-    return (
-        <footer className='color'>
-            Copyright &copy;2021 Franklin milito
-        </footer>
-    )
+class Footer extends React.Component {
+    constructor() {
+        super()
+        this.state = {
+            isLoggedIn: true,
+            value: 'in'
+        }
+    }
+    render() {
+        return (
+            <div>
+                <h1>You are logged {this.state.isLoggedIn ? this.state.value : this.state.value = 'out'}</h1>
+            </div>
+        )
+    }
 }
 export default Footer
