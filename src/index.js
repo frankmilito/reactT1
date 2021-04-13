@@ -6,8 +6,6 @@ import App from './App'
 // import Footer from './Footer'
 // import Greetings from './Greetings'
 // import TodoItems from './TodoItems'
-
-import TodoItems from './TodoItems'
 import './App.css'
 
 
